@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Keuangan</string>
+    <string name="login">Login</string>
+    <string name="daftar">Daftar</string>
+    <string name="regis">Registrasi</string>
+    <string name="saldo_saat_ini">Saldo saat ini</string>
+    <string name="tambah_catatan">Tambahkan Catatan</string>
+    <string name="belum_punya_akun">Belum mempunyai akun?</string>
+    <string name="KEY_CATATAN">dataCatatan</string>
+</resources>

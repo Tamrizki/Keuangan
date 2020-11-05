@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "399247598711",
+    "firebase_url": "https://keuangan-d8cad.firebaseio.com",
+    "project_id": "keuangan-d8cad",
+    "storage_bucket": "keuangan-d8cad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399247598711:android:3ae631b33a1eb3dbbf1272",
+        "android_client_info": {
+          "package_name": "tam.pa.keuangan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399247598711-76s581pdpa552letthsms2ha9puu87u2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tam.pa.keuangan",
+            "certificate_hash": "a5c2a68ed1e218906ffef0b8e94ee960486c8465"
+          }
+        },
+        {
+          "client_id": "399247598711-rkq1htnvm3fhevmkceuj0q4q4vvkpi23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4R3s8z4N6N7InuRgtKDV9WAZpjrKhLU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399247598711-rkq1htnvm3fhevmkceuj0q4q4vvkpi23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

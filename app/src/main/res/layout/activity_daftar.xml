@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.daftarPage.DaftarActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/grey"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="40dp"
+            android:background="@drawable/custom_bg_15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/regis"
+                style="@style/typoBigBold"
+                android:textColor="@color/blackLess"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/typoNormal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_bg_5dp"
+                android:hint="Masukan email anda..."
+                android:inputType="textEmailAddress"
+                android:paddingHorizontal="10dp"
+                android:textColorHighlight="@color/blue"
+                android:textColorHint="@color/greyDark"
+                android:textColorLink="@color/blue" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <EditText
+                android:id="@+id/etPass"
+                style="@style/typoNormal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_bg_5dp"
+                android:hint="Masukan password anda..."
+                android:paddingHorizontal="10dp"
+                android:textColorHighlight="@color/blue"
+                android:textColorHint="@color/greyDark"
+                android:textColorLink="@color/blue" />
+            <Button
+                android:id="@+id/btnDaftar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/daftar"
+                android:background="@drawable/custom_bg_5dp"
+                android:backgroundTint="@color/blue"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

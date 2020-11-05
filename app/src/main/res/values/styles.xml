@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="typoSuperBig">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+    <style name="typoBig">
+        <item name="fontFamily">@font/nunito_regular</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">22dp</item>
+    </style>
+    <style name="typoBigBold">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">22dp</item>
+    </style>
+    <style name="typoMiddle">
+        <item name="fontFamily">@font/nunito_semibold</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="typoMiddleBold">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="typoSmall">
+        <item name="fontFamily">@font/nunito_regular</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="typoSmallBold">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="typoNormal">
+        <item name="fontFamily">@font/nunito_regular</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="typoNormalBold">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+</resources>

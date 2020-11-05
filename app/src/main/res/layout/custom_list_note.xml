@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_bg_5dp"
+        android:backgroundTint="@color/white"
+        >
+        <RelativeLayout
+            android:id="@+id/rlDate"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_bg_orange">
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="10"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                style="@style/typoSuperBig"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvNote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Judul catatan"
+            style="@style/typoMiddle"
+            android:textColor="@color/blackLess"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="15dp"/>
+        <TextView
+            android:id="@+id/tvNominal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Rp. 100000"
+            style="@style/typoNormal"
+            android:textColor="@color/blackLess"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="15dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
