@@ -29,6 +29,7 @@ class LoginActivity : AppCompatActivity(), IViewLogin, View.OnClickListener {
         init()
         if (auth.currentUser != null){
             startActivity(Intent(this, MainActivity::class.java))
+            finish()
         }
         btnMasuk.setOnClickListener(this)
         tvDaftar.setOnClickListener(this)
@@ -43,6 +44,7 @@ class LoginActivity : AppCompatActivity(), IViewLogin, View.OnClickListener {
 
     override fun onGetLogin(msg: String) {
         startActivity(Intent(this, MainActivity::class.java))
+        finish()
     }
 
     override fun onGetFailur(msg: String) {
